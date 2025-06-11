@@ -1,10 +1,11 @@
+
 function Header() {
-    <>
-      <header>
-        <logo>StraffBridge</logo>
+   return(
+    <header>
+        <div>StaffBridge</div>
         <button id="profile"></button>
-      </header>
-    </>
+    </header>
+   )
 }
 
 export default Header
